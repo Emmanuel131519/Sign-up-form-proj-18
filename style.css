@@ -29,7 +29,7 @@ body{
 .section-1 h1{
 font-size: 2rem;
 text-align: center;
-color: var(--Grayish-Blue);
+color:white;
 }
 
 .section-1 p{
@@ -37,9 +37,10 @@ color: var(--Grayish-Blue);
     text-align: center;
   max-width: 70%;
   margin: 0 auto;
+  color: white;
 }
 
-span{
+.button-1-div span{
     color: var(--Grayish-Blue);
     font-weight: 700;
 }
@@ -54,6 +55,7 @@ line-height: 22px;
 font-size: 16px;
 color: var(--Grayish-Blue);
 font-family: "Poppins", sans-serif;
+font-weight: 400;
 }
 
 .button-1-div button{
@@ -70,11 +72,12 @@ font-family: "Poppins", sans-serif;
 }
 
 form {
-    background-color: var(--Grayish-Blue);
+    background-color: white;
     padding: 1rem;
     border-radius: 10px;
   width: 90%;
   margin: 0 auto;
+
   }
 
 
@@ -84,3 +87,76 @@ form {
     border-radius: 10px;
     border: 1px solid var(--Blue);
   }   
+
+  .form-div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  button{
+    width: 100%;
+    height: 46px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: var(--Green);
+    color: white;
+}
+
+.button-2-div{
+padding-top: 1rem;
+}
+
+.span{
+    color: var(--Red);
+    font-weight: 700;
+}
+
+.div-4 p{
+    padding-top: 1rem;
+text-align: center;
+color: var(--Grayish-Blue);
+}
+
+input::placeholder{
+    font-family: "Poppins", sans-serif;
+    color: var(--Dark-Blue);
+    font-weight: 700;
+    padding-left: 1rem;
+}
+
+@media(min-width:765px){
+    main{
+        display: flex;
+    }
+
+    .section-1 h1{
+font-size: 3rem;
+text-align: start;
+width: 70%;
+padding-left: 7.5rem;
+
+    }
+
+    .section-1 {
+        width: 60%;
+        display: flex;
+justify-content: center;
+align-items: center;
+    }
+
+
+    .section-1-div-1 p{
+        text-align: start;
+    }
+
+    
+
+
+
+    
+}
+
+
