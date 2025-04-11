@@ -80,6 +80,10 @@ form {
 
   }
 
+  .form form{
+    padding-bottom: 5rem;
+  }
+
 
   input{
     width: 100%;
@@ -128,20 +132,28 @@ input::placeholder{
 }
 
 @media(min-width:765px){
+
+    body{
+        background-image: url(asset/background-desktop.png);
+        background-color: var(--Red);
+        background-size: contain;
+    }
     main{
         display: flex;
+        max-width: 90%;
+        margin: 0 auto;
     }
 
     .section-1 h1{
 font-size: 3rem;
 text-align: start;
-width: 70%;
-padding-left: 7.5rem;
+width: 90%;
+padding-left: 5.5rem;
 
     }
 
     .section-1 {
-        width: 60%;
+        width: 50%;
         display: flex;
 justify-content: center;
 align-items: center;
@@ -152,11 +164,10 @@ align-items: center;
         text-align: start;
     }
 
+    form{
+    }
     
 
-
-
-    
 }
 
 
