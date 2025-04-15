@@ -178,7 +178,7 @@ input::placeholder{
     .section-1 h1{
 font-size: 3rem;
 text-align: start;
-min-width: 70%;
+max-width: 69%;
 margin: 0;
 
     }
@@ -193,7 +193,7 @@ align-items: center;
 
     .section-1-div-1 p{
         text-align: start;
-        min-width: 78%;
+        max-width: 67%;
         margin: 0;
     }
 
