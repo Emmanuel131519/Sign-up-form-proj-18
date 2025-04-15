@@ -138,6 +138,26 @@ input::placeholder{
 }
 
 @media(min-width:765px){
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+        justify-content: center;
+    }
+
+    .section-1 h1{
+        font-size: 1.5rem;
+        max-width: 60%;
+        margin: 0 auto;
+    }
+
+    .section-1-div-1 p{
+        max-width: 65%;
+    }
+}
+
+@media(min-width:1024px){
 
     body{
         background-image: url(asset/background-desktop.png);
@@ -152,14 +172,14 @@ input::placeholder{
         max-width: 90%;
         margin: 0 auto;
         align-items: center;
-       
+       flex-direction: row;
     }
 
     .section-1 h1{
 font-size: 3rem;
 text-align: start;
-width: 90%;
-padding-left: 5.5rem;
+
+max-width: 100%;
 
     }
 
@@ -173,6 +193,8 @@ align-items: center;
 
     .section-1-div-1 p{
         text-align: start;
+        max-width: 90%;
+        margin: 0;
     }
 
   .div-4{
@@ -189,5 +211,8 @@ align-items: center;
         box-shadow:0px 10px 12px var(--Dark-Blue) ;
     }
 }
+
+
+
 
 
